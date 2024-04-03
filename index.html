@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chidimma Nwafor </title>
+    <link rel="icon" type="image/x-icon" href="p (2).jpeg">  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">Biography   </a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">  Paintings</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Portfolio   </a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1  style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" > Chidimma Nwafor </h1>
+        <h2>  Exploring the Unconscious Mind </h2>
+        <div id="menu">
+            
+            <a onclick="showabout() " style="text-decoration: none;" id="paintingsLink">Biography</a>
+
+            <a onclick="showcontact() " style="text-decoration: none;" id="paintingsLink">  Portfolio  </a>
+<br><br>
+<a onclick="showwork()" style="text-decoration: none;" id="paintingsLink"> Paintings </a>
+<style> #paintingsLink {
+    color: #cdcd6f; /* Light blue color */
+    font-family: 'Exo', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Sci-fi font  */
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */
+    padding: 10px 20px; /* Padding around the text */
+    
+    display: inline-block; /* Allow for inline styling */
+    position: relative; /* Needed for the hover effect */
+  }
+
+  #paintingsLink:hover {
+    background-color: #cdcd6f; /* Background color on hover */
+    animation: glow 1s ease-in-out infinite alternate; /* Add glowing animation */
+  }
+
+ </style>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Previous Works </h1>
+        <section>
+            <h2>
+                Oil studies  </h2>
+               <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (9).jpeg"   alt="">
+               <h2>
+                Oil on paper <br>
+16 x 12inches <br>
+2022 
+             </h2>
+               <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (8).jpeg"   alt="">
+               <h2>
+                Oil on paper <br>
+16 x 12inches <br>
+2022 
+             </h2>
+
+
+             <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (7).jpeg"   alt="">
+             <h2>
+              Oil on paper <br>
+16 x 12inches <br>
+2023 
+           </h2>
+
+           <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (6).jpg"   alt="">
+
+           <h2>
+            Oil on paper <br>
+16 x 12inches <br>
+2022
+         </h2>
+
+         <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (5).jpg"   alt="">
+
+         <h2>
+          Oil on paper <br>
+16 x 12inches <br>
+2022
+       </h2>
+
+       <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (1).jpeg"   alt="">
+
+       <h2>
+        Oil on paper <br>
+16 x 12inches <br>
+2023
+     </h2>
+     <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (1).jpg"   alt="">
+
+     <h2>
+      Oil on paper <br>
+16 x 12inches <br>
+2023
+   </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <h1 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+    Here I am, Again I   </h1>
+            
+               <p>
+                "Here I am, Again" is a painting that explores themes of self-reflection, emotional 
+                vulnerability, and the human experience of navigating complex emotions and states of 
+                being. It evokes feelings of melancholy and contemplation. The use of a self-portrait adds a 
+                personal dimension to the artwork, inviting viewers to connect with the artist's inner world. 
+                The gloomy atmosphere of the room symbolizes a particular emotional state, while the 
+                moody expression reflects a range of emotions, such as sadness, uncertainty, or 
+                introspection.
+            </p>
+
+            <h2  >
+                Here I am, Again I   </h2>
+                     <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (4).JPG"   alt="">
+                     <h2>
+                        36 x 48 inches, 2023 
+                   </h2>
+                         
+                    
+                     <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (3).jpg"   alt="">
+
+                     <h2>
+                        36 x 48 inches, 2023 
+                   </h2>
+                             
+                           
+                        
+                    
+                    
+                   <h1 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                    LIMINAL SPACE  </h1>
+                            
+                               <p>
+                                The "Liminal Space" series of paintings explores periods of transition and ambiguity, delving 
+into the indeterminate realms between the past and the present. The series captures the 
+interplay of uncertainty and possibility, achieved through deliberate use of sharp contrasts 
+between light and shadow. This technique highlights the boundaries between the known 
+and the unknown
+                            </p>
+                
+                            <h2  >
+                                Liminal Space I    </h2>
+                                     <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (2).CR2"   alt="">
+                                     <h2>
+                                        30 x 36 inches, 2023 
+                                   </h2>
+                                         
+                                    
+                                     <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (2).jpeg"   alt="">
+                                     <h2  >
+                                        Liminal Space II   </h2>
+                                     <h2>
+                                        24 X 36 inches, 2023
+                                   </h2>
+                                               
+                                   <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (11).jpeg"   alt="">
+                                   <h2  >
+                                      Liminal Space III   </h2>
+                                   <h2>
+                                      24 X 36 inches, 2023
+                                 </h2>    
+                    
+                                 <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="xc.png"   alt="">
+                                 <h2  >
+                                    Liminal Space III   </h2>
+                                 <h2>
+                                    24 X 36 inches, 2023
+                               </h2> 
+                    
+                    
+                    
+    
+                               
+                               <h1 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                                NATURE VS NURTURE  </h1>
+                                        
+                                           <p>
+                                            In "Nature vs Nurture," I explore the influences of innate traits and environmental factors on 
+                                            women's development. The series questions gender stereotypes with queries like "Does 
+                                            ambition have a gender?" and "Does occupation have a gender?" Through self-portraits and 
+                                            carefully crafted compositions, I highlight the societal struggles women face due to these 
+                                            stereotypes. The artwork invites viewers to reflect on the balance between inherent traits 
+                                            and external influences, encouraging them to reconsider their own experiences and 
+                                            perspectives. Drawing from personal experiences growing up, the series delves into the 
+                                            complex interplay between nature and nurture.           
+                                        </p>
+
+
+
+
+                                        <h1 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                                            The Burden  </h1>
+                                                    
+                                                       <p>
+                                                        "The Burden," part of the "Nature vs Nurture" series, aims to explore themes of struggle, 
+responsibility, and emotional weight, particularly focusing on how gender stereotypes shape 
+societal roles and expectations for women. These stereotypes dictate appearances, 
+achievements, and restrictions, creating a burden as women navigate the pressure to 
+conform. The use of muted, greyish colors symbolizes a chiaroscuro of moodiness. 
+                                                    </p>
+
+
+
+
+                                                    <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (10).jpeg"   alt="">
+                                                    <h2  >
+                                                        The Burden  </h2>
+                                                    <h2>
+                                                        48 by 48 inches, 2023 
+                                                  </h2> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  <h2   >
+                                                    In the shadow  </h2>
+                                                    <h2>
+                                                        60 by 48 inches, 2023 
+                                                  </h2>            
+                                                               <p>
+                                                                "In the Shadow," from the "Nature vs Nurture" series, portrays the personas and protective 
+                                                                shells that obscure one's true self beneath societal pressures. The central standing figure 
+                                                                serves as a focal point or primary persona, while the surrounding figures represent 
+                                                                metaphorical shadows. The aggressive, curved brushstrokes mimicking the rococo style in 
+                                                                the clouded background symbolize the limitations imposed by gender stereotypes.      
+                                                            </p>
+        
+        
+        
+        
+                                                            <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (2).jpg"   alt="">
+                                                            
+        
+        
+
+
+
+                                                            <h1 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                                                                Not All Who wanders are lost      </h1>
+                                                                        
+                                                                           <p>
+                                                                            "Not all who wander are lost" is part of the painting series titled "Nature vs Nurture," which 
+                                                                            emphasizes the idea that exploration, curiosity, and non-traditional paths by women can 
+                                                                            lead to valuable experiences and insights. This is especially relevant in environments where 
+                                                                            women are expected to conform to traditional roles. In the painting, the lady is depicted as 
+                                                                            being blocked by what appears to be a shield, daydreaming about venturing out and 
+                                                                            exploring life.                        
+                                                                        </p>
+                    
+                    
+                    
+                    
+                                                                        <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (12).jpeg"   alt="">
+                                                                        <h2  >
+                                                                            </h2>
+                                                                        <h2>
+                                                                            36 x 36 inches 
+                                                                      </h2> 
+                    
+                                                                      <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (1).CR2"   alt="">
+                                                                      <h2  >
+                                                                          </h2>
+                                                                      <h2>
+                                                                          36 x 36 inches 
+                                                                    </h2> 
+
+
+
+
+
+
+
+
+
+                                                                    <h2 style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"   >
+                                                                        Beauty and perfection  </h2>
+                                                                        <h2>
+                                                                            60 x 48 inches, 2023
+                                                                      </h2>            
+                                                                                   <p>
+                                                                                    The painting titled "Beauty and Perfection" presents a striking contrast between two figures, 
+                                                                                    highlighting diverse perceptions and ideals of beauty and perfection. The lady in the white 
+                                                                                    long gown, holding an Ankara fabric across her waist, embodies a traditional standard of 
+                                                                                    beauty. In contrast, the naked lady with visible rolls on her skin challenges conventional 
+                                                                                    ideals of perfection, emphasizing natural beauty, celebrating diversity, and individuality. 
+                                                                                </p>
+                            
+                            
+                            
+                            
+                                                                                <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (4).jpeg"   alt="">
+                                                                                
+                            
+
+
+
+
+                                                                                <h2  style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                                                                                    Finding Self  </h2>
+                                                                                    <h2>
+                                                                                        48 by 48 inches, 2023
+                                                                                  </h2>            
+                                                                                               <p>
+                                                                                                "Finding Self," part of the "Nature vs Nurture" series, aims to explore the process of self
+                                                                                                discovery and understanding one's own values, beliefs, and desires free from societal 
+                                                                                                influences, expectations, and limitations imposed by gender stereotypes. The blurred 
+                                                                                                background behind the figure represents societal noise, symbolizing societal expectations 
+                                                                                                and roles. 
+                                                                                            </p>
+                                        
+                                        
+                                        
+                                        
+                                                                                            <img style="height: 7cm;  opacity: 90%; border-radius: 0%;"  src="p (3).jpeg"   alt="">
+                                                                                            
+                                        
+                                                                                            <h2  style=" text-shadow: 0px 0px 10px #cdcd6f; /* Inner shadow */"  >
+                                                                                                Beauty and perfection   </h2>
+                                                                                            <h2>
+                                                                                                60 x 48 inches, 2023 
+                                                                                          </h2>            
+                                                                                                       <p>
+                                                                                                        The painting titled "Beauty and Perfection" presents a striking contrast between two figures, 
+highlighting diverse perceptions and ideals of beauty and perfection. The lady in the white 
+long gown, holding an Ankara fabric across her waist, embodies a traditional standard of 
+beauty. In contrast, the naked lady with visible rolls on her skin challenges conventional 
+ideals of perfection, emphasizing natural beauty, celebrating diversity, and individuality. 
+                                                                                                    </p>
+                                                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                    
+                    
+                    
+                   
+
+
+            <div id="used">
+           
+            </div>
+          
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1  > Chidimma Nwafor</h1>
+            <section>
+                <h2  >Biography  </h2>
+                <p  >
+                    Chidimma Nwafor (b. 1995) is a Nigerian visual artist born in Anambra, Nigeria. Her artistry 
+                    delves into the societal stereotypes impacting women and the subtle intricacies of human 
+                    emotion. Through her paintings, characterized by muted and dark color palettes inspired by 
+                    the Baroque movement, she challenges and questions gender stereotypes and societal 
+                    expectations. Nwafor holds a Bachelor of Arts degree in Fine Arts from the University of 
+                    Benin. Currently based in Lagos, Nigeria, she works as a full-time artist, exploring and 
+                    reflecting upon these themes in her compelling artwork. 
+                </p>
+                <p>
+                   
+            </section>
+            <img style="height: 10cm;  opacity: 90%; border-radius: 0%; max-width: 100%;
+            height: auto;"  src="profile.jpg" alt="">
+           
+  
+            <section>
+                <h2> Statement </h2>
+        <p> In my art, I delve deep into the intricate emotional landscape of human experience, 
+            particularly focusing on the societal stereotypes that impact women emotionally, mentally, 
+            and physically. Born and brought up in Nigeria, my work is a reflection of the cultural and 
+            societal nuances I have observed and experienced throughout my life. 
+            My artistic journey is driven by a profound curiosity about human emotion and expression. I 
+            am passionate about capturing the nuanced bodily and facial expressions that reveal the 
+            hidden layers of human emotion, serving as a lens through which I interpret the 
+            complexities of the human emotional experience.
+                </p>
+
+                <img style="height: 10cm;  opacity: 90%; border-radius: 0%; max-width: 100%;
+                height: auto;"  src="p (3).jpeg" alt="">
+               
+      
+                <section>
+                    <h2>Venturing beyond the surface, I explore the intricate relationship between societal 
+                        stereotypes and the unconscious mind. I am fascinated by how deeply ingrained societal 
+                        norms and expectations seep into our subconscious, shaping our beliefs, perceptions, and 
+                        self-conceptions. Drawing from the realm of the unconscious mind, I delve into the hidden 
+                        desires, fears, and fantasies that manifest in our dreams, thoughts, and creative 
+                        expressions. I am intrigued by the ways in which we create alternate realities and narratives 
+                        as a means of coping with and navigating the complexities of life, often influenced and 
+                        constrained by societal stereotypes and expectations. 
+                          </h2>
+            <p>
+                    </p>
+
+  
+
+
+                    <img style="height: 10cm;  opacity: 90%; border-radius: 0%; max-width: 100%;
+                    height: auto;"  src="p (2).jpeg" alt="">
+                   
+          
+                    <section>
+                        <h2> Inspired by the Baroque movement, my artistic style is characterized by a masterful use of 
+                            muted and dark color palettes, imbuing my paintings with a sense of subdued yet profound 
+                            mood. I employ lights, shadows, and short brush strokes to create depth and texture, 
+                            predominantly using oil colors for my paintings.</h2>
+                <p>
+                        </p>
+    
+
+
+
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1></h1>
+            <section>
+                <h2 style="color: burlywood;"> Chidimma Nwafor </h2>
+                   <h4>Lagos, Nigeria. </h4>  
+                   <h4>   Born 1995, Anambra, Nigeria.  </h4>
+                  
+                 <h2 style="color: burlywood; " >    Education </h2>
+               <h4>      2017              
+                   Fine and Applied Art (Painting) - University of Benin, Edo State, Nigeria. 
+                </h4>
+            <section>
+                <h2>Biography  </h2>
+                <h2 style="color: burlywood; " >  Group Exhibitions     </h2>
+                <p>
+               
+                   
+                                
+                                 
+                              
+                2024    Kuenyehia prize Award and Exhibition, Accra, Ghana <br>
+               2024     Mitochondrial gallery, In search of dream, Houston, USA <br>
+                2023    1952 Africa Art Accelerator, The dreams that freed us, Lagos, Nigeria <br>
+               2023     Thought pyramid gallery, Discerning new visuals across the Atlantic, Lagos, <br>
+                2023    Arnhem collection 5, Group exhibition, Oyo, Nigeria. <br>
+               2023     The Artist commune, Into the multiverse, Lagos, Nigeria. <br> 
+               2022     Imnotart gallery, Untapped, Illinois USA. <br>
+               2022     Eco bank Headquarters Pade art Exhibition, Lagos, Nigeria. <br>
+               2022     Thought Pyramid Gallery, Next of Kin, Lagos, Nigeria. <br>
+               2021     Life in my city Juried Exhibition, Vision 2020, so far so what?” Enugu, Nigeria.<br> 
+              2020      Art climate gallery, The Art of discovery Rest, Rivers, Nigeria. <br>
+             2020       Vivid Art gallery, Inside life Art exhibition, Lagos, Nigeria.<br>
+                </p>
+                <p>
+                   
+           
+                   
+          
+            </section>
+            <section>
+                <h2 style="color: burlywood;"> Residencies  </h2>
+                   <h4>2023.                
+                    Award 
+                    1952 African Art Accelerator   Lagos, Nigeria Artist in Residence   </h4>  
+                  
+                  
+                 <h2 style="color: burlywood; " > Award    </h2>
+               <h4>    2024                
+                Kuenyehia Prize, 2024. Finalist Ghana <br>
+                2023               
+Art X Prize, 2023.  Finalist Art X Prize Lagos
+                </h4>
+            <section>
+
+                <section>
+                    <h2 style="color: burlywood;">Recognitions   </h2>
+                       <h4>            
+            
+ 2022 ARTSY, Black Painters on Our Radar <br>
+  2022 Hello Icon Magazine, Issue 013 <br>
+ 2022 Sun News, Next of Kin Unfurls Future Masters<br> 
+2020 Tribune News, Finalist Emerge Next of kin Art Contest <br>
+  2020  SMEPEAKS, 7 Nigerian Female Painters Rocking the Male-Dominated Profession Stylishly. <br>
+ 2020  1 human journal, Featured artist of the week (7-14 July) <br>
+ 2019  Ake review, Black bodies, Gray matters <br>
+                    
+                    
+                    
+                    </h4>  
+                      
+                      
+                     
+                <section>
+
+
+        </div>
+        <div id="footer">
+            <p><BR><BR><BR><BR> <BR><BR><BR><BR>Unveiling  Emotional Weight of Societal Stereotypes on the Hidden Landscape of Human Experience
+            </p>
+          
+
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
